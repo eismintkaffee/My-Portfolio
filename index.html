@@ -19,7 +19,7 @@
 
     <!--Lightbox CSS-->
     <link rel="stylesheet" href="css/lightbox.min.css">
-
+     <script src="js/processing.js"></script> 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -58,10 +58,12 @@
         </div>
        
         <!-- /#sidebar-wrapper -->
-        <div id="home" class="home">
+          <div id="home" class="home">
+             <!--  <div id="pde"> -->
+                    <canvas id="pde" data-processing-sources="js/Vehicle.pde js/Vehicle2.pde js/TFlockingAssignment.pde"></canvas>
                 <div class="homeTitle">
-            <!--         <canvas id="pde" data-processing-sources="js/TFlockingAssignment.pde"></canvas> -->
-                   
+                  
+                    <!-- </div> -->
                         <h1 id="title">Hello. My name is Tiffany Ulep.</h1>
                         <h3 id="subtitle"> I am an aspiring designer and developer.</h3>
                            <br/>
@@ -71,7 +73,7 @@
         </div>
         <!-- Page Content -->
         <div id="page-content-wrapper" style="background-color:#333;color:#fff">
-              
+               
             <div class="container-fluid">
 
                 <div class="row" >
@@ -82,8 +84,9 @@
                             <br/>
                             <h1 id="aboutTitle">Bio</h1>
                             <hr/>
-                            <p id="aboutParagraph">This template has a responsive menu toggling system. 
-                                <br/>The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens.<br/> When toggled using the button below, the menu will appear/disappear.<br/> On small screens, the page content will be pushed off canvas.</p>
+                            <h2>I draw. I code. I make things.</h2>
+                            <p id="aboutParagraph">I recently graduated with a BS in Computer Science along with a minor in Digital Culture at Arizona State University.  
+                               Prior to pursuing a computer science degree, I attained an AA in fashion design and studied graphic design at a local community college.<br/> I have always been fasinated by both technology and design and the arts. This has lead be to become passionate about designing and making website as well as programming anything with a visual aspect*.  <br/>*In my designs, I like to add a touch of color in my simple designs while always keeping the audience mind<br/> While not sitting in front of the computer, I am an avid artist.*** </p>
                            
                            
                         </div>
@@ -128,69 +131,9 @@
                         </a>
 
 
-<!-- Group one of gallery -->
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a class="example-image-link" href="img/group2/FFXIV1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.qweiqweoqweoqjweoqjwoejqwoejqowejqowejqwoiejqwoiejqowejqwoiasdjaslkdjalskdmaslkdmalksdnansdlkansdlkasndaksndlkasndlkasdasdkanslkenfreoinaasdansongfoanvaoisf*">
-                            <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV1.jpg" alt=""/>
-                            </a><br/>Testing Testing
-                            </div>
 
-                             <div class="col-md-4">
-                                <a class="example-image-link" href="img/group2/FFXIV2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-                                <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV2.jpg" alt=""/>
-                                </a>
-                       <br/>Testing Testing
-                          </div>
-                             <div class="col-md-4">
-                        <a class="example-image-link" href="img/group2/FFXIV2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-                            <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV2.jpg" alt=""/>
-                        </a>
-                     <br/>Testing Testing
-                        </div>
-                      </div>
-                      <!-- Group one of gallery -->
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a class="example-image-link" href="img/group2/FFXIV1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.qweiqweoqweoqjweoqjwoejqwoejqowejqowejqwoiejqwoiejqowejqwoiasdjaslkdjalskdmaslkdmalksdnansdlkansdlkasndaksndlkasndlkasdasdkanslkenfreoinaasdansongfoanvaoisf*">
-                            <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV1.jpg" alt=""/>
-                            </a><br/>Testing Testing
-                            </div>
-
-                             <div class="col-md-4">
-                                <a class="example-image-link" href="img/group2/FFXIV2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-                                <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV2.jpg" alt=""/>
-                                </a>
-                       <br/>Testing Testing
-                          </div>
-                             <div class="col-md-4">
-                        <a class="example-image-link" href="img/group2/FFXIV2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-                            <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV2.jpg" alt=""/>
-                        </a>
-                     <br/>Testing Testing
-                        </div>
-                      </div>
-                    <!-- Group one of gallery -->
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a class="example-image-link" href="img/group2/FFXIV1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.qweiqweoqweoqjweoqjwoejqwoejqowejqowejqwoiejqwoiejqowejqwoiasdjaslkdjalskdmaslkdmalksdnansdlkansdlkasndaksndlkasndlkasdasdkanslkenfreoinaasdansongfoanvaoisf*">
-                            <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV1.jpg" alt=""/>
-                            </a><br/>Testing Testing
-                            </div>
-
-                             <div class="col-md-4">
-                                <a class="example-image-link" href="img/group2/FFXIV2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-                                <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV2.jpg" alt=""/>
-                                </a>
-                       <br/>Testing Testing
-                          </div>
-                             <div class="col-md-4">
-                        <a class="example-image-link" href="img/group2/FFXIV2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-                            <img class="example-image" style="height: 250px; width: 500px" src="img/group2/FFXIV2.jpg" alt=""/>
-                        </a>
-                     <br/>Testing Testing
-                        </div>
-                      </div>
+                  
+               
                         </div>
                     </div> <!-- end of portfolio -->
 
@@ -223,7 +166,7 @@
     <!--Lightbox -->
     <script src="js/lightbox-plus-jquery.min.js"></script>
 
-    <script src="js/processing.min.js"></script> 
+   
 
     <!-- Menu Toggle Script -->
     <script>
