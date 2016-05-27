@@ -83,7 +83,7 @@ hr {
 
 .resume{
  height: 100vh;
-
+  text-align: center;
 }
 
 #aboutTitle{
@@ -101,8 +101,12 @@ hr {
     font-size: 18px;
     font-weight: 100px;
     font-family: Colaborate;
+     display: inline-block;
 }
 
+#profilePic{
+    display: inline-block;
+}
 
 .portfolio{
  height: 100vh;
