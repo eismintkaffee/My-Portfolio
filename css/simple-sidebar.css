@@ -50,7 +50,7 @@ hr {
    /* background-color: #000;*/
    background: none;
     /*background-size: cover;*/
-    /*margin-top: -20px;*/
+    margin-top: -20px;
     overflow-x: none;
 }
 
@@ -82,7 +82,7 @@ hr {
 
 
 .resume{
- height: 100vh;
+ /*height: 100vh;*/
   text-align: center;
 }
 
@@ -109,12 +109,13 @@ hr {
 }
 
 .portfolio{
- height: 100vh;
+
+ height: 100vh; /*placeholder delete later*/
 
 }
 
 .contact{
-     height: 100vh;
+     height: 100vh; /*placeholder delete later*/
 
 }
 
