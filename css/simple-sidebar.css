@@ -212,6 +212,12 @@ hr {
     border-color: #11F488;
 }
 
+#aboutProj{
+     text-align: Center;
+     font-size: 18px;
+    font-weight: 100px;
+    font-family: Colaborate;
+}
 
 #contactTitle{
     text-align: center;
