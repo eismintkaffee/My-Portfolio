@@ -98,12 +98,12 @@ hr {
 
 }
 #aboutParagraph{
-    text-align: center;
+    text-align: left;
     width: 50%;
     font-size: 18px;
     font-weight: 100px;
     font-family: Colaborate;
-     display: inline-block;
+     /*display: inline-block;*/
 }
 
 #profilePic{
@@ -166,6 +166,29 @@ hr {
     border-radius: 3px;
     color: white;
     border-color: #11F488;
+
+}
+
+#DownloadBtn{
+    background: #11F488;
+    border-radius: 3px;
+    color: white;
+    border-color: #11F488;
+    width:50%;
+    font-size: 20px;
+    color:#333;
+    font-weight: bolder;
+}
+
+#DownloadBtn:hover{
+    background: #fff;
+    border-radius: 3px;
+    color: white;
+    border-color: #fff;
+    width:50%;
+    font-size: 20px;
+    color:#333;
+    font-weight: bolder;
 }
 
 #PortfolioBtn{
