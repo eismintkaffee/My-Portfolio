@@ -209,7 +209,23 @@ hr {
 
 }
 
+#contactIcons{
+    color:#fff;
+}
 
+#contactIcons:hover{
+    color:#11F488;
+
+}
+
+#contactText{
+    color:#999;
+     text-align: center;
+     font-size: 30px;
+    font-weight: bold;
+    font-family: Colaborate;
+   /* letter-spacing: 1px;*/
+}
 /*end my css*/
 
 #wrapper {
