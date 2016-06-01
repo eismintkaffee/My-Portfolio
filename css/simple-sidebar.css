@@ -168,6 +168,13 @@ hr {
     border-color: #11F488;
 
 }
+#ResumeBtn:hover{
+   background: #11f488;
+    border-radius: 3px;
+    color: #333;
+    border-color: #11F488;
+
+}
 
 #DownloadBtn{
     background: #11F488;
@@ -195,6 +202,13 @@ hr {
     background: none;
     border-radius: 3px;
     color: white;
+    border-color: #11F488;
+}
+
+#PortfolioBtn:hover{
+    background: #11f488;
+    border-radius: 3px;
+    color: #333;
     border-color: #11F488;
 }
 
